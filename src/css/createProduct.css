@@ -1,0 +1,44 @@
+body{
+    background: #e8d1d1;
+    background: linear-gradient(90deg,rgba(232, 209, 209, 1) 0%, rgba(218, 240, 228, 1) 50%, rgba(133, 130, 118, 1) 100%);
+}
+
+h2{
+    justify-self: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    align-content: center;
+    
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    padding: 2.5%;
+    border-radius: 1%;
+    align-items: center;
+    align-content: center;
+    border: 5px solid black;
+}
+
+.form input, textarea{
+    border: 2px solid black;
+    width: 100%;
+}
+
+.form button{
+   margin-top: 5%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+    border: 2px solid black;
+}
+

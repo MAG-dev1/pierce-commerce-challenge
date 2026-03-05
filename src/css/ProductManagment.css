@@ -1,0 +1,54 @@
+.managment_container{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.managment_container * {
+    margin: 2%;
+}
+
+.managment_container_buttons{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.managment_container_buttons button{
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.managment_container_buttons button:hover{
+    transform: scale(1.03);
+}
+
+.imagen_gestion{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    border-radius: 5%;
+    border: solid ;
+}
+
+@media screen and (max-width: 768px) {
+    .managment_container {
+        flex-direction: column;
+    }
+    .managment_container_buttons {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagen_gestion {
+       
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .managment_container_buttons button {
+        width: 100%;
+    }
+
+}
