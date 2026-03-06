@@ -24,8 +24,14 @@ Permite a los usuarios registrarse, iniciar sesión, explorar productos disponib
 ## 📦 Instalación local
 
 ```bash
-git clone https://github.com/MAG-dev1/Ecommerce-online-.git
-cd Ecommerce-online-
+git clone https://github.com/MAG-dev1/Ecommerce-online-.git](https://github.com/MAG-dev1/pierce-commerce-challenge.git
+cd latest
 npm install
 npm run dev
+```
+
+## Deployment
+
+Accede al siguiente link si quieres probar la aplicacion en produccion: https://pierce-commerce-challenge.vercel.app/login
+
 
