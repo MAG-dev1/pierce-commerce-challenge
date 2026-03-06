@@ -1,9 +1,9 @@
 import { Navigate } from 'react-router-dom';
-import Navbar from '../components/Navbar.jsx';
-import { UserContext } from '../context/UserContext.jsx';
+import Navbar from '../../components/Navbar.jsx';
+import { UserContext } from '../../context/UserContext.jsx';
 import { useContext, useEffect } from 'react';
-import { useCarrito } from '../context/CarritoContext.jsx';
-import '../css/shoppingCart.css'
+import { useCarrito } from '../../context/CarritoContext.jsx';
+import '../../css/shoppingCart.css'
 
 function ShoppingCart() {
   const { user } = useContext(UserContext);

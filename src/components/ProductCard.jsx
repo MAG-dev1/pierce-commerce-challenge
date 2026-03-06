@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../css/products.css'
+import '../css/productCard.css'
 import { useContext } from 'react';
 import { UserContext } from '../context/UserContext.jsx';
 import { useState } from 'react';
@@ -21,8 +21,9 @@ const detailedOpen = () => {
         <img src={product.image} alt={product.title}/>
         <p>${product.price}</p>
 
-        {!user.admin && 
-          <button onClick={() => onAdd(product)} className="boton">Agregar al carrito</button>
+        {user != undefined?  !user.admin && 
+          <button onClick={() => onAdd(product)} className="boton">Agregar al carrito</button>:
+          <></>
         }
         
         

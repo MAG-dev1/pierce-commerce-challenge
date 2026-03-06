@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Home from './pages/Home';
+import Home from './pages/general/Home';
 import ProductDetail from './components/ProductDetail';
-import Login from './pages/Login';
-import ShoppingCart from './pages/ShoppingCart';
+import Login from './pages/general/Login';
+import ShoppingCart from './pages/general/ShoppingCart';
 import './css/app.css'
-import Register from './pages/Register';
+import Register from './pages/general/Register';
 import ProtectedRoute from './components/ProtectedRoute';
 import { UserProvider } from './context/UserContext';
 import { CarritoProvider } from './context/CarritoContext';

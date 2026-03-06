@@ -16,7 +16,7 @@ function ProductDetail({id , isOpen, onClose, onAddProduct}) {
   const { user, setUser } = useContext(UserContext);
 
   useEffect(() => {
-    console.log(products);
+
     let product = products.find(p => p.id === id);
     if(product){
       setProduct(product);

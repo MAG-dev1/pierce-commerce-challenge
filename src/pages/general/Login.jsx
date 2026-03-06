@@ -1,15 +1,15 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../css/login.css'
-import '../css/app.css'
-import { UserService } from '../core/UserService.js';
+import '../../css/login.css'
+import '../../css/app.css'
+import { UserService } from '../../core/UserService.js';
 import { useContext } from 'react';
-import { UserContext } from '../context/UserContext.jsx';
+import { UserContext } from '../../context/UserContext.jsx';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import { toast } from 'react-toastify';
-import { Label } from '../styledComponents/StyledComponents.js';
-import '../css/app.css'
+import { Label } from '../../styledComponents/StyledComponents.js';
+
 
 function Login() {
   const [email, setEmail] = useState('');

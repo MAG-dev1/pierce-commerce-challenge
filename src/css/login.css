@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    justify-self: center;
+    height: 50rem;
 
 }
 
@@ -28,8 +29,14 @@
     width: 100%;
     flex-direction: column;
     gap: 20px;
+    height: 30%;
+}
+
+.campo input{
+    height: 50%;
 }
 .container button {
     width: 50%;
     text-wrap: nowrap;
 }
+

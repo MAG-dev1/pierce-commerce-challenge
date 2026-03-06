@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../css/login.css'
-import { UserService } from '../core/UserService.js';
+import '../../css/login.css'
+import { UserService } from '../../core/UserService.js';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import { toast } from 'react-toastify';
-import { Label } from '../styledComponents/StyledComponents.js';
+import { Label } from '../../styledComponents/StyledComponents.js';
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

@@ -19,6 +19,7 @@ export default function ProductCreate() {
 
     const createProductHandle = (e) =>{
         e.preventDefault();
+      
         try {
             let product = new Product(seller, precio, titulo, imagen, descripcion);
             service.post(product);
