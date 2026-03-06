@@ -1,6 +1,6 @@
 # 🛒 Ecommerce Online
 
-Este es un proyecto de ecommerce digital desarrollado con **React**, realizado como parte del curso **Talento IT**.
+Este es un proyecto de ecommerce digital desarrollado con **React**, realizado como parte del la prueba tecnica de la empresa **Pierce Commerce**.
 
 Permite a los usuarios registrarse, iniciar sesión, explorar productos disponibles, agregarlos al carrito y simular una compra.
 
